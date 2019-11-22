@@ -2,6 +2,8 @@
 const {app, BrowserWindow} = require('electron')
 const path = require('path')
 
+process.env.SOCKET_PORT = 18092;
+
 // const io = require('socket.io-client');
 
 // var socket = io("http://localhost:18091");
